@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background: linear-gradient(to bottom, #f2f6fc, #dce6f1);
+  color: #333;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a4fb3;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #24388f;
+  font-weight: 500;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0a4fb3;
+  margin-right: 40px;
+}
+
+.left_button a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #24388f;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-right span {
+  color: #24388f;
+  font-weight: 500;
+}
+/* main */
+.main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  text-align: left; /* 전체 왼쪽 정렬 */
+}
+
+.main h1 {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  color: #1e2a44;
+  text-align: left;
+}
+
+.highlight-red {
+  color: #f46a6a;
+}
+
+.logo-colored {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 800;
+  background: linear-gradient(to Top, #00b3ff, #00e676);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo-colored strong {
+  color: #0d1e45;
+  -webkit-text-fill-color: initial;
+}
+
+.start-button {
+  display: block;
+  margin: 40px auto 0; /* 위 여백 + 가운데 정렬 */
+  padding: 12px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #0a4fb3;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.reviews {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.review {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #eef2fb;
+}
