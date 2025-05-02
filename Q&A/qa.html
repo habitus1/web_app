@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A+Maker 로그인</title>
+  <link rel="stylesheet" href="qa.css" />
+</head>
+<body>
+    <header>
+        <div class="header-left">
+        <img src="" alt="A+Maker-Logo">
+          <nav class="left_button">
+            <a href="#">홈</a>
+            <a href="#">질문하기</a>
+            <a href="#">게시판</a>
+            <a href="#">마이페이지</a>
+          </nav>
+        </div>
+        <div class="header-right">
+          <a href="#">로그인/로그아웃</a>
+        </div>
+      </header>
+    
+      <div class="container">
+        <div class="sidebar">
+          <button>[컴퓨터구조론] CPU 정의</button>
+          <button>[컴퓨터구조론] CPU와 GPU의 차이</button>
+          <button>[자료구조] 스택 vs. 이진탐색</button>
+          <button>[운영체제] interrupt 순서</button>
+        </div>
+    
+        <div class="main-content">
+          <div class="question-box">
+            <strong>[컴퓨터구조론] CPU 정의</strong>
+            <br /><br />
+            1. 다음 중 중앙 처리 장치(CPU)의 가장 핵심적인 역할은 무엇인가요?
+            ① 데이터를 영구적으로 저장한다.  
+            ② 명령어를 읽고 해석하며 처리한다.  
+            ③ 전력 공급을 제어한다.  
+            ④ 주변 장치와의 통신을 담당한다.
+    
+            <br /><br />
+            2. CPU를 구성하는 주요 요소가 아닌 것은?
+            ① 산술 논리 장치(ALU)  
+            ② 제어 장치(Control Unit)  
+            ③ 레지스터(Register)  
+            ④ 주기억 장치(Main Memory)
+          </div>
+          <div class="answer-box">
+            1. 정답: ②  
+            해설: CPU는 프로그램에 담긴 명령어들을 순서대로 읽어 실행하고, 그 과정에서 제어와 연산을 담당합니다.
+    
+            <br /><br />
+            2. 정답: ④  
+            해설: 주기억 장치는 CPU 외부에 있으며 데이터를 저장하는 장치입니다.
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer-controls">
+        <select>
+          <option>3줄씩</option>
+          <option>5줄씩</option>
+          <option>10줄씩</option>
+        </select>
+        <div class="button-group">
+          <button>추천</button>
+          <button>삭제</button>
+          <button>O/X</button>
+        </div>
+        <input type="text" placeholder="키워드를 입력하세요." />
+        <input type="text" placeholder="문제를 입력하세요." style="flex:1" />
+      </div>
+      
+  <script src="qa.js"></script>
+</body>
+</html>
+  
