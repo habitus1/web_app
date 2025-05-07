@@ -14,6 +14,12 @@ body {
   color: #333;
 }
 
+.Image {
+  width: 88px;
+  height: 56px;
+  object-fit: cover;
+}
+
 nav a {
   margin-left: 20px;
   text-decoration: none;
@@ -33,6 +39,30 @@ header {
 .header-left {
   display: flex;
   align-items: center;
+}
+.welcome-message {
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #24388f;
+  font-size: 16px;
+}
+
+.left_button a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #24388f;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-right span {
+  color: #24388f;
+  font-weight: 500;
 }
 
 .container {

@@ -32,13 +32,6 @@ header {
   align-items: center;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #0a4fb3;
-  margin-right: 40px;
-}
-
 .left_button a {
   margin-right: 20px;
   text-decoration: none;

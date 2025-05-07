@@ -10,26 +10,50 @@ body {
   height: 56px;
   object-fit: cover;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: D2DDE7;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.header-left {
-  display: flex;
-  align-items: center;
-}
+
 nav a {
   margin-left: 20px;
   text-decoration: none;
   color: #24388f;
   font-weight: 500;
 }
-.logo {
-  height: 40px;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: linear-gradient(to bottom, #f2f6fc, #edf2f7);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.welcome-message {
+  font-family: "DM Sans", Helvetica;
+  font-weight: 400;
+  color: #24388f;
+  font-size: 16px;
+}
+
+.left_button a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #24388f;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-right span {
+  color: #24388f;
+  font-weight: 500;
 }
 
 .welcome {
