@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>게시물 보기</title>
-  <link rel="stylesheet" href="View.css" />
-</head>
-<body>
-  <header>
-    <div class="header-left">
-      <img src="" alt="A+Maker-Logo">
-      <nav class="left_button">
-        <a href="#">홈</a>
-        <a href="#">질문하기</a>
-        <a href="#">게시판</a>
-        <a href="#">마이페이지</a>
-      </nav>
-    </div>
-    <div class="header-right">
-      <a href="#">로그인/로그아웃</a>
-    </div>
-  </header>
-
-  <main class="post-container">
-    <div class="post-card">
-      <div class="post-header">
-        <div class="user-img"><img src="#" ></div>
-        <div>
-          <p class="username">이은주</p>
-          <p class="post-date">2025년 04월 16일 11:53 작성</p>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>게시물 보기</title>
+    <link rel="stylesheet" href="View.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <img
+          src="https://c.animaapp.com/madj7c2qF5w5OD/img/image-3.png"
+          alt="Logo"
+          class="Image"
+        />
+        <nav class="left_button">
+          <a href="#">홈</a>
+          <a href="#">질문하기</a>
+          <a href="#">게시판</a>
+          <a href="#">마이페이지</a>
+        </nav>
       </div>
-
-      <div class="post-content">
-        <strong>[운영체제] 공유 자원</strong><br />
-        공유 리소스를 사용할 경우, 프로세스 간 동기화 문제(예: 경합)를 고려해야 한다. (O/X)<br />
-        정답: O
+      <div class="header-right">
+        <a href="#">로그인/로그아웃</a>
       </div>
+    </header>
 
-      <div class="interactions">
-        <span>❤️ 3 </span>
-        <span>💬 2</span>
-        <input type="text" class="comment-input" placeholder="댓글을 입력해주세요." />
-      </div>
-
-      
-      
-      <div class="comments">
-        <div class="comment">
-          <p><strong>최서희</strong> (04/16 15:29)</p>
-          <p>경합 = 경쟁 조건, race condition 입니다. 혹시나 헷갈리실 분이 계실까봐요.</p>
+    <main class="post-container">
+      <div class="post-card">
+        <div class="post-header">
+          <div class="user-img"><img src="#" /></div>
+          <div>
+            <p class="username">이은주</p>
+            <p class="post-date">2025년 04월 16일 11:53 작성</p>
+          </div>
         </div>
 
-        <div class="comment">
-          <p><strong>김민준</strong> (04/16 16:06)</p>
-          <p>이거 작년 기출 문제에 나왔던 내용이네요. 감사합니다.</p>
+        <div class="post-content">
+          <strong>[운영체제] 공유 자원</strong><br />
+          공유 리소스를 사용할 경우, 프로세스 간 동기화 문제(예: 경합)를
+          고려해야 한다. (O/X)<br />
+          정답: O
         </div>
+
+        <div class="interactions">
+          <span>❤️ 3 </span>
+          <span>💬 2</span>
+          <input
+            type="text"
+            class="comment-input"
+            placeholder="댓글을 입력해주세요."
+          />
+        </div>
+
+        <div class="comments">
+          <div class="comment">
+            <p><strong>최서희</strong> (04/16 15:29)</p>
+            <p>
+              경합 = 경쟁 조건, race condition 입니다. 혹시나 헷갈리실 분이
+              계실까봐요.
+            </p>
+          </div>
+
+          <div class="comment">
+            <p><strong>김민준</strong> (04/16 16:06)</p>
+            <p>이거 작년 기출 문제에 나왔던 내용이네요. 감사합니다.</p>
+          </div>
+        </div>
+
+        <button class="back-button">뒤로 가기</button>
       </div>
+    </main>
 
-      <button class="back-button">뒤로 가기</button>
-    </div>
-  </main>
-
-  <script src="View.js"></script>
-</body>
+    <script src="View.js"></script>
+  </body>
 </html>
