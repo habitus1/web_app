@@ -17,8 +17,13 @@ window.addEventListener("DOMContentLoaded", function () {
             <span class="like" data-index="${index}" style="cursor: pointer;">
               ❤️ ${post.likes}
             </span>
-            <button class="delete" data-index="${index}" style="margin-left: 10px;">🗑️ 삭제</button>
-            ⏱️ ${post.time}
+            <button class="delete" data-index="${index}" style="margin-left: 10px background-color: #eeeeee08; border:none;">🗑️</button>
+            ⏱️ ${new Date().toLocaleString("ko-KR", {
+              month: "2-digit",
+              day: "2-digit",
+              hour: "2-digit",
+              minute: "2-digit",
+            })}
           </div>
         `;
 
